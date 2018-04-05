@@ -152,3 +152,35 @@ major minor  #blocks  name
    8        8  208171008 sda8
   11        0    1048575 sr0
 ```
+
+### `hdparm`
+The hdparm command gets information about sata devices like hard disks.
+```
+$ sudo hdparm -i /dev/sda
+
+/dev/sda:
+
+ Model=ST3500418AS, FwRev=CC38, SerialNo=9VMJXV1N
+ Config={ HardSect NotMFM HdSw>15uSec Fixed DTR>10Mbs RotSpdTol>.5% }
+ RawCHS=16383/16/63, TrkSize=0, SectSize=0, ECCbytes=4
+ BuffType=unknown, BuffSize=16384kB, MaxMultSect=16, MultSect=16
+ CurCHS=16383/16/63, CurSects=16514064, LBA=yes, LBAsects=976773168
+ IORDY=on/off, tPIO={min:120,w/IORDY:120}, tDMA={min:120,rec:120}
+ PIO modes:  pio0 pio1 pio2 pio3 pio4
+ DMA modes:  mdma0 mdma1 mdma2
+ UDMA modes: udma0 udma1 udma2 udma3 udma4 udma5 *udma6
+ AdvancedPM=no WriteCache=enabled
+ Drive conforms to: unknown:  ATA/ATAPI-4,5,6,7
+
+ * signifies the current active mode
+ ```
+
+ ###  `free`
+Check the amount of used, free and total amount of RAM on system with the free command.
+```
+$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          7975       5865       2110          0         24        622
+-/+ buffers/cache:       5218       2757
+Swap:         1951        921       1030
+```
