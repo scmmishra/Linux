@@ -113,19 +113,22 @@ gvfsd-fuse   on  /run/user/1000/gvfs                          type  fuse.gvfsd-f
 ### `/proc`
 Many of the virtual files in the /proc directory contain information about hardware and configurations. Here are some of them
 
-CPU/Memory information
-
+#### CPU/Memory information
+```
 # cpu information
 $ cat /proc/cpuinfo
 
 # memory information
 $ cat /proc/meminfo
-Linux/kernel information
+```
 
+#### Linux/kernel information
+```
 $ cat /proc/version
 Linux version 3.11.0-12-generic (buildd@allspice) (gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu7) ) #19-Ubuntu SMP Wed Oct 9 16:20:46 UTC 2013
-SCSI/Sata devices
-
+```
+#### SCSI/Sata devices
+```
 $ cat /proc/scsi/scsi
 Attached devices:
 Host: scsi3 Channel: 00 Id: 00 Lun: 00
@@ -134,8 +137,9 @@ Host: scsi3 Channel: 00 Id: 00 Lun: 00
 Host: scsi4 Channel: 00 Id: 00 Lun: 00
   Vendor: SONY     Model: DVD RW DRU-190A  Rev: 1.63
   Type:   CD-ROM                           ANSI  SCSI revision: 05
-Partitions
-
+```
+#### Partitions
+```
 $ cat /proc/partitions
 major minor  #blocks  name
 
@@ -147,3 +151,4 @@ major minor  #blocks  name
    8        7    1998848 sda7
    8        8  208171008 sda8
   11        0    1048575 sr0
+```
