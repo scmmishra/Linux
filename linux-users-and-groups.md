@@ -1,7 +1,3 @@
-If you are new to Linux/Unix, then the concept of permissions may be confusing. This guide will provide you with an explanation of what permissions are, how they work, and how to manage them. A number of examples will be provided to illustrate how to set and change permissions for both users and groups.
-
-![Linux Users and Groups](/docs/assets/linux_users_and_groups.png "Linux Users and Groups")
-
 ## What are User and Group Permissions?
 
 Linux/Unix operating systems have the ability to multitask in a manner similar to other operating systems. However, Linux's major difference from other operating systems is its ability to have multiple users. Linux was designed to allow more than one user to have access to the system at the same time. In order for this multiuser design to work properly, there needs to be a method to protect users from each other. This is where permissions come in to play.
