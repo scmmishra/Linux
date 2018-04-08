@@ -80,8 +80,7 @@ PAN has connectivity range up to 10 meters. PAN may include wireless computer
 keyboard and mouse, Bluetooth enabled headphones, wireless printers and TV
 remotes.
 
-![Personal Area Network](https://www.tutorialspoint.com/data_communication_com
-puter_network/images/Bluetooth.jpg)
+![Personal Area Network](https://www.tutorialspoint.com/data_communication_computer_network/images/Bluetooth.jpg)
 
 For example, Piconet is Bluetooth-enabled Personal Area Network which may
 contain up to 8 devices connected together in a master-slave fashion.
